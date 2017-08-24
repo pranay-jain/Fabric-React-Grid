@@ -1,0 +1,18 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Counter /> renders 1`] = `
+<div>
+  <label>
+    a counter!
+  </label>
+  <pre>
+    counter = 
+    5
+  </pre>
+  <button
+    onClick={undefined}
+  >
+    click me!
+  </button>
+</div>
+`;

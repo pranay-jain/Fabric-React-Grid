@@ -1,0 +1,71 @@
+{
+  "version": "1.0.0",
+  "name": "asp.net",
+  "private": true,
+  "jest": {
+    "moduleFileExtensions": [
+      "ts",
+      "tsx",
+      "js"
+    ],
+    "transform": {
+      "\\.(ts|tsx)$": "<rootDir>/node_modules/ts-jest/preprocessor.js"
+    },
+    "testRegex": "/__tests__/.*\\.(ts|tsx|js)$"
+  },
+  "devDependencies": {
+    "@types/deep-freeze": "0.0.29",
+    "@types/jest": "19.2.2",
+    "@types/minimist": "^1.2.0",
+    "@types/node": "7.0.12",
+    "@types/promise": "^7.1.30",
+    "@types/react": "15.0.21",
+    "@types/react-addons-shallow-compare": "^0.14.19",
+    "@types/react-addons-test-utils": "^0.14.18",
+    "@types/react-dom": "0.14.23",
+    "@types/react-redux": "4.4.38",
+    "@types/react-test-renderer": "^15.5.0",
+    "@types/redux": "3.6.0",
+    "awesome-typescript-loader": "^3.1.2",
+    "browser-sync": "^2.18.8",
+    "browser-sync-webpack-plugin": "^1.1.4",
+    "jest": "19.0.2",
+    "jest-cli": "19.0.2",
+    "promise": "^7.1.1",
+    "react-addons-test-utils": "^15.2.0",
+    "react-test-renderer": "^15.5.4",
+    "source-map-loader": "^0.2.1",
+    "ts-jest": "^19.0.14",
+    "typescript": "2.3.2",
+    "webpack": "^2.5.1",
+    "webpack-dev-server": "^2.4.5"
+  },
+  "dependencies": {
+    "@types/react-router": "^4.0.9",
+    "@types/react-router-dom": "^4.0.4",
+    "@types/react-router-redux": "^5.0.1",
+    "@types/redux-promise-middleware": "0.0.6",
+    "browser-sync": "^2.18.12",
+    "history": "^4.6.1",
+    "office-ui-fabric-react": "2.27.1",
+    "promise": "7.1.1",
+    "react": "^15.5.4",
+    "react-dom": "^15.5.4",
+    "react-redux": "5.0.4",
+    "react-router": "^4.1.1",
+    "react-router-dom": "^4.1.1",
+    "react-router-redux": "^5.0.0-alpha.6",
+    "redux": "^3.6.0",
+    "redux-devtools-extension": "^2.13.2",
+    "redux-promise-middleware": "^4.3.0",
+    "redux-saga": "^0.15.3",
+    "redux-thunk": "^2.2.0",
+    "type-to-reducer": "^1.0.3",
+    "whatwg-fetch": "^2.0.3"
+  },
+  "scripts": {
+    "test": "jest",
+    "dev": "webpack-dev-server --progress --colors",
+    "start": "webpack && npm run dev"
+  }
+}
